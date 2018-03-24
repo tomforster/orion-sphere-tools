@@ -1,0 +1,73 @@
+@bg-color: #101010;
+
+body
+{
+  background-color: @bg-color;
+}
+
+main
+{
+  position:relative;
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  overflow:hidden;
+}
+
+.outer
+{
+  margin: 10px;
+  border: 3px solid #6aff58;
+  flex-grow: 1;
+}
+
+.noise-container
+{
+  z-index: 10;
+  position:absolute; left:0; right:0;
+  top:0;
+  bottom:0;
+}
+
+#noise
+{
+  width:100%;
+  height:100%;
+}
+
+.body-img
+{
+  margin:15px;
+  width:361px;
+  height: 646px;
+  background-size: 15px 15px;
+  background-image: linear-gradient(to right, green 1px, transparent 1px), linear-gradient(to bottom, green 1px, transparent 1px);
+  border-right:1px solid green;
+  border-bottom:1px solid green;
+  position: relative;
+
+  #outline
+  {
+    fill:@bg-color;
+  }
+
+  .human
+  {
+    position: absolute;
+    width:100%;
+    margin: 10px auto;
+  }
+
+  #human-behind
+  {
+    clip-path: inset(0% 0 99% 0);
+    animation: scan 30s linear;
+  }
+}
+
+@keyframes scan {
+  0% {clip-path: inset(0% 0 99% 0);}
+  100% {clip-path: inset(0% 0 0% 0);}
+}
+
