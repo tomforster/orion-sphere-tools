@@ -13,14 +13,58 @@ body
   color: @main-color;
 }
 
+.overlay
+{
+  color: white;
+  font-size: 100pt;
+  font-weight: bolder;
+  position: absolute;
+  width:99%;
+  top:170px;
+  text-align: center;
+  z-index: 5;
+  filter: none;
+}
+
+img.overlay
+{
+  height:110px;
+}
+
 .header, .footer
 {
+  width:361px;
+}
+
+.header, .footer, .text
+{
+  z-index: 2;
   font-size: 16pt;
   font-weight: bold;
   border: @main-color 1px solid;
   padding: 0px 10px;
-  width:361px;
   filter: drop-shadow( 2px 2px 0 rgba(255, 0, 0, 0.25)) drop-shadow( -2px -2px 0 rgba(0, 255, 0, 0.25));
+  background-color: @bg-color;
+}
+
+.text
+{
+  position: absolute;
+}
+
+.indication
+{
+  width: 125px;
+  left: 10px;
+  top:50px;
+}
+
+.percentage
+{
+  right: 10px;
+  top: 50px;
+  width: 125px;
+  text-align: right;
 }
 
 .header
@@ -36,6 +80,7 @@ body
 
 main
 {
+  width:361px;
   position:relative;
   display:flex;
   flex-direction: column;
@@ -67,7 +112,6 @@ main
 
 .body-img
 {
-  width:361px;
   height: 615px;
   background-size: 15px 15px;
   background-image: linear-gradient(to right, @main-color 1px, transparent 1px), linear-gradient(to bottom, @main-color 1px, transparent 1px);
@@ -92,8 +136,8 @@ main
 
   #human-behind
   {
-    clip-path: inset(0% 0 99% 0);
-    animation: scan 30s linear;
+    clip-path: inset(0% 0 0% 0);
+    animation: scan 30s step-end;
 
     path {
       fill: @main-color;
@@ -103,5 +147,54 @@ main
 
 @keyframes scan {
   0% {clip-path: inset(100% 0 0% 0);}
+
+  2.5% {clip-path: inset(97.5% 0 0% 0);}
+  5% {clip-path: inset(95% 0 0% 0);}
+  7.5% {clip-path: inset(92.5% 0 0% 0);}
+  10% {clip-path: inset(90% 0 0% 0);}
+
+  12.5% {clip-path: inset(87.5% 0 0% 0);}
+  15% {clip-path: inset(85% 0 0% 0);}
+  17.5% {clip-path: inset(82.5% 0 0% 0);}
+  20% {clip-path: inset(80% 0 0% 0);}
+
+  22.5% {clip-path: inset(77.5% 0 0% 0);}
+  25% {clip-path: inset(75% 0 0% 0);}
+  27.5% {clip-path: inset(72.5% 0 0% 0);}
+  30% {clip-path: inset(70% 0 0% 0);}
+
+  32.5% {clip-path: inset(67.5% 0 0% 0);}
+  35% {clip-path: inset(65% 0 0% 0);}
+  37.5% {clip-path: inset(62.5% 0 0% 0);}
+  40% {clip-path: inset(60% 0 0% 0);}
+
+  42.5% {clip-path: inset(57.5% 0 0% 0);}
+  45% {clip-path: inset(55% 0 0% 0);}
+  47.5% {clip-path: inset(52.5% 0 0% 0);}
+  50% {clip-path: inset(50% 0 0% 0);}
+
+  52.5% {clip-path: inset(47.5% 0 0% 0);}
+  55% {clip-path: inset(45% 0 0% 0);}
+  57.5% {clip-path: inset(42.5% 0 0% 0);}
+  60% {clip-path: inset(40% 0 0% 0);}
+
+  62.5% {clip-path: inset(37.5% 0 0% 0);}
+  65% {clip-path: inset(35% 0 0% 0);}
+  67.5% {clip-path: inset(32.5% 0 0% 0);}
+  70% {clip-path: inset(30% 0 0% 0);}
+
+  72.5% {clip-path: inset(27.5% 0 0% 0);}
+  75% {clip-path: inset(25% 0 0% 0);}
+  77.5% {clip-path: inset(22.5% 0 0% 0);}
+  80% {clip-path: inset(20% 0 0% 0);}
+
+  82.5% {clip-path: inset(17.5% 0 0% 0);}
+  85% {clip-path: inset(15% 0 0% 0);}
+  87.5% {clip-path: inset(12.5% 0 0% 0);}
+  90% {clip-path: inset(10% 0 0% 0);}
+
+  92.5% {clip-path: inset(7.5% 0 0% 0);}
+  95% {clip-path: inset(5% 0 0% 0);}
+  97.5% {clip-path: inset(2.5% 0 0% 0);}
   100% {clip-path: inset(0% 0 0% 0);}
 }
