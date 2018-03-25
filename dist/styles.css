@@ -15,13 +15,19 @@ body {
   font-weight: bolder;
   position: absolute;
   width: 99%;
-  top: 170px;
+  top: 53px;
+  bottom: 50px;
   text-align: center;
-  z-index: 5;
-  filter: none;
+  z-index: 3;
+  filter: drop-shadow(2px 2px 0 rgba(255, 0, 0, 0.25)) drop-shadow(-2px -2px 0 rgba(0, 255, 0, 0.25));
+  animation: scan 30s step-end;
 }
-img.overlay {
+.overlay img {
+  position: absolute;
+  top: 120px;
   height: 110px;
+  left: 1px;
+  width: 100%;
 }
 .header,
 .footer {
