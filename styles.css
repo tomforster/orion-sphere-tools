@@ -1,13 +1,37 @@
+@font-face {
+  font-family: 'Sevastapol-Interface';
+  /*a name to be used later*/
+  src: url('Sevastopol-Interface.ttf');
+  /*URL to font*/
+}
 body {
   background-color: #101010;
+  font-family: 'Sevastapol-Interface', "Courier New", Courier, monospace;
+  color: #7e86ff;
+}
+.header,
+.footer {
+  font-size: 16pt;
+  font-weight: bold;
+  border: #7e86ff 1px solid;
+  padding: 0px 10px;
+  width: 361px;
+  filter: drop-shadow(2px 2px 0 rgba(255, 0, 0, 0.25)) drop-shadow(-2px -2px 0 rgba(0, 255, 0, 0.25));
+}
+.header {
+  margin-bottom: 10px;
+}
+.footer {
+  margin-top: 10px;
+  text-align: right;
 }
 main {
   position: relative;
-  width: 100%;
-  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  margin: 15px;
 }
 .outer {
   margin: 10px;
@@ -27,18 +51,18 @@ main {
   height: 100%;
 }
 .body-img {
-  margin: 15px;
   width: 361px;
-  height: 646px;
+  height: 615px;
   background-size: 15px 15px;
-  background-image: linear-gradient(to right, green 1px, transparent 1px), linear-gradient(to bottom, green 1px, transparent 1px);
-  border-right: 1px solid green;
-  border-bottom: 1px solid green;
+  background-image: linear-gradient(to right, #7e86ff 1px, transparent 1px), linear-gradient(to bottom, #7e86ff 1px, transparent 1px);
+  border-right: 1px solid #7e86ff;
+  border-bottom: 1px solid #7e86ff;
   position: relative;
-  filter: drop-shadow(2px 2px 0 rgba(255, 0, 0, 0.25)) drop-shadow(-2px -2px 0 rgba(0, 255, 255, 0.25));
+  filter: drop-shadow(2px 2px 0 rgba(255, 0, 0, 0.25)) drop-shadow(-2px -2px 0 rgba(0, 255, 0, 0.25));
 }
-.body-img #outline {
+.body-img #human-front path {
   fill: #101010;
+  stroke: #7e86ff;
 }
 .body-img .human {
   position: absolute;
@@ -48,6 +72,9 @@ main {
 .body-img #human-behind {
   clip-path: inset(0% 0 99% 0);
   animation: scan 30s linear;
+}
+.body-img #human-behind path {
+  fill: #7e86ff;
 }
 @keyframes scan {
   0% {
