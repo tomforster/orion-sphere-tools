@@ -117,3 +117,4 @@ typings/
 orion-sphere-tools.iml
 package.json
 tsconfig.json
+!/.gitignore
