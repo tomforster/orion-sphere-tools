@@ -28,6 +28,7 @@ body {
   height: 110px;
   left: 1px;
   width: 100%;
+  opacity: 0.90;
 }
 .header,
 .footer {
