@@ -35,6 +35,7 @@ main {
   border-right: 1px solid green;
   border-bottom: 1px solid green;
   position: relative;
+  filter: drop-shadow(2px 2px 0 rgba(255, 0, 0, 0.25)) drop-shadow(-2px -2px 0 rgba(0, 255, 255, 0.25));
 }
 .body-img #outline {
   fill: #101010;
@@ -50,7 +51,7 @@ main {
 }
 @keyframes scan {
   0% {
-    clip-path: inset(0% 0 99% 0);
+    clip-path: inset(100% 0 0% 0);
   }
   100% {
     clip-path: inset(0% 0 0% 0);
