@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="219.13704"
+   height="499.99969"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   version="1.0"
+   sodipodi:docname="Human_body_silhouette.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-132.57434"
+     inkscape:cy="291.42842"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     width="970px"
+     height="2200px"
+     inkscape:window-width="1712"
+     inkscape:window-height="1113"
+     inkscape:window-x="118"
+     inkscape:window-y="16"
+     showgrid="false"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(-0.1503674,-1.0250455)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4593024;stroke-opacity:1"
+       d="m 109.71866,1.0250455 -13.688923,3.325 -5.86507,6.2583995 -3.82782,9.7494 1.62819,15.5603 -1.82689,2.5216 3.81301,13.9352 2.15702,0.019 1.55598,4.8554 0.29917,11.4 -6.44458,11.3835 -27.86539,12.5882 -14.0491,23.730705 -1.57526,39.55659 -10.11631,41.051 -6.23288,38.7837 -9.02413,25.2406 -8.36208,9.6502 -10.1432296,10.5357 2.66835,1.3905 9.0438596,-5.9162 -1.8408,19.2427 4.25483,5.3466 11.89432,0.8244 6.55672,-20.5287 3.01866,-21.5136 18.49589,-45.832 13.62791,-57.1832 3.0689,55.9528 -10.87479,53.9272 2.58312,38.1629 -6.66751,69.535 3.69057,52.705 2.92895,27.0006 -11.27085,24.1371 -2.94106,8.5882 3.42055,9.4632 3.96013,3.7915 14.06928,0.7612 12.00331,-41.3305 1.40437,-40.0553 19.902063,-124.4983 6.55896,-10.7129 6.58408,10.7129 19.90251,124.4983 1.40437,40.0553 12.00331,41.3305 14.06928,-0.7612 3.96014,-3.7915 3.42055,-9.4632 -2.94106,-8.5882 -11.27086,-24.1371 2.92896,-27.0006 3.69011,-52.705 -6.66706,-69.535 2.58313,-38.1629 -10.87479,-53.9272 3.06889,-55.9528 13.62792,57.1832 18.49589,45.832 3.01865,21.5136 6.55628,20.5287 11.89476,-0.8244 4.25438,-5.3466 -1.84035,-19.2427 9.04386,5.9162 2.66835,-1.3905 -10.14322,-10.5357 -8.36209,-9.6502 -9.02412,-25.2406 -6.23288,-38.7837 -10.11632,-41.051 -1.57526,-39.55659 -14.04909,-23.730705 -27.86539,-12.5882 -6.44459,-11.3835 0.29917,-11.4 1.55598,-4.8554 2.15657,-0.019 3.81347,-13.9352 -1.8269,-2.5216 1.62819,-15.5603 -3.82782,-9.7494 -5.86508,-6.2583995 z"
+       id="path2180"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
